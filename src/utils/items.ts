@@ -1,7 +1,7 @@
 import { ItemType } from "linkees/ts";
 import { CHANNEL_TYPES } from "linkees";
 
-const items: ItemType[] = [
+export const items: ItemType[] = [
   {
     title: "Website",
     subtitle: "Look at my work!",
@@ -61,5 +61,3 @@ const items: ItemType[] = [
     link: "https://telegram.me/jonaylor89", // telegram profile link
   },
 ];
-
-export default items;

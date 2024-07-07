@@ -1,15 +1,19 @@
 "use client";
-import Linktree from "linkees";
-import items from "@/utils/items";
+
+import dynamic from "next/dynamic";
+import { items } from "@/utils/items";
+const Linktree = dynamic(() => import("linkees"), { ssr: false });
 
 export default function Home() {
   return (
     <>
-      <Linktree
-        cardItems={items}
-        headerAvatar="/assets/johannes.png"
-        name="Johannes"
-      />
+      <main>
+        <Linktree
+          cardItems={items}
+          headerAvatar="/assets/johannes.png"
+          name="Johannes"
+        />
+      </main>
     </>
   );
 }
