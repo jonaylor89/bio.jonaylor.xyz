@@ -6,14 +6,14 @@ export const items: ItemType[] = [
     title: "Website",
     subtitle: "Look at my work!",
     type: CHANNEL_TYPES.WEBSITE,
-    link: "https://jonaylor.xyz", //your personal website or portfolio  link
+    link: "https://jonaylor.com", //your personal website or portfolio  link
   },
   {
     title: "Blog",
     subtitle: "The latest content for what I've written",
     type: CHANNEL_TYPES.OTHER,
     image: "/assets/blog.png",
-    link: "https://blog.jonaylor.xyz", // Blog link
+    link: "https://blog.jonaylor.com", // Blog link
   },
   {
     title: "GitHub",
